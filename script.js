@@ -143,9 +143,14 @@ window.addEventListener('scroll', function (e) {
     nav.classList.add('sticky');
   } else {
     nav.classList.remove('sticky');
-    console.log('welcome');
   }
 });
+
+const printConsole = function (a) {
+  console.log(a);
+};
+
+printConsole('Hello Leo');
 
 // console.log(document.documentElement);
 // console.log(document.head);
