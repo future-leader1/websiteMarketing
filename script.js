@@ -146,12 +146,6 @@ window.addEventListener('scroll', function (e) {
   }
 });
 
-const printConsole = function (a) {
-  console.log(a);
-};
-
-printConsole('Hello Leo');
-
 // console.log(document.documentElement);
 // console.log(document.head);
 // console.log(document.body);
